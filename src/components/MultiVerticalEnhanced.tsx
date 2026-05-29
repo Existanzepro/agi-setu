@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback, useRef, useEffect } from "react";
+import React, { useState, useMemo, useCallback } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
@@ -23,7 +23,6 @@ import { Users, Layers, Rocket, Clock, FileText, Plus, Send, MessageSquare } fro
 
 // ---------- Brand / i18n
 const BRAND = { primary: "#0f172a", secondary: "#10b981", accent: "#38bdf8", fontFamily: "Arimo, system-ui, sans-serif" };
-const t = (pt: string, en: string) => pt; // PT-first demo
 
 // ---------- Verticals (brief)
 const GENERIC_PAINS = ["Integrações desconexas", "Dados duplicados", "Baixa visibilidade de KPI"];
